@@ -62,7 +62,7 @@
 
 
 
-    <div class="pacing-calendar pl">
+    <div id="chicklets" class="pacing-calendar pl">
 
     </div>
 
@@ -544,7 +544,7 @@ if (document.location.hostname.search("code.org") !== -1) {
 			if(pathname.indexOf("/")>=0) {
 				pathname=pathname.substr(1,1)
 			};
-			elementID="L"&pathname;
+			elementID="#L"+pathname;
 			$( "#chicklets" ).load( "../chicklets.html" ,function(){
 			$(elementID).addClass("active");
             

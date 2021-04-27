@@ -736,9 +736,9 @@ if (document.location.hostname.search("code.org") !== -1) {
 			if(pathname.indexOf("/")>=0) {
 				pathname=pathname.substr(1,1)
 			};
-			$(alert(pathname));
+			elementID="#L"+pathname;
 			$( "#chicklets" ).load( "../chicklets.html" ,function(){
-			$("#L1").addClass("active");
+			$(elementID).addClass("active");
             
 	   });
 </script>
