@@ -731,9 +731,9 @@ if (document.location.hostname.search("code.org") !== -1) {
 }
 </script>
 <script >
-			
-			$( "#chicklets" ).load( "../chicklets.html" ).promise(function(){
-            $("#L1").addClass(" active");
+			$( "#chicklets" ).load( "../chicklets.html" ,function(){
+			$("#L1").addClass("active");
+            alert("Sam");
 	   });
 </script>
 </body>
