@@ -1,0 +1,22 @@
+HTTrack3.46+htsswf+htsjava launched on Tue, 27 Apr 2021 10:41:18 at https://curriculum.code.org/plcsp-21/local/ +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps0u1%s%uN0%I0p3DaK0H0%kf2A20000%c2%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2010], %s -->" -%l "en, en, *" https://curriculum.code.org/plcsp-21/local/ -O1 C:\Users\srmorri3\Downloads\CSP2\CSP2 +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:50:40	Error: 	"Cancelled by User" (-1) at link https://i.imgur.com/LHMFDNt.png (from https://curriculum.code.org/plcsp-21/local/11/)
+10:50:42	Error: 	"Cancelled by User" (-1) at link https://i.imgur.com/KimlGF2.png (from https://curriculum.code.org/plcsp-21/local/39/)
+10:50:42	Error: 	"Not Found" (404) at link https://curriculum.code.org/plcsp-21/local/56/support.code.org (from https://curriculum.code.org/plcsp-21/local/56/)
+10:50:42	Error: 	"Not Found" (404) at link https://curriculum.code.org/plcsp-21/local/56/curriculum.code.org (from https://curriculum.code.org/plcsp-21/local/56/)
+10:50:42	Error: 	"error:00000001:lib(0):func(0):reason(1)" (-5) after 2 retries at link https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css (from https://curriculum.code.org/plcsp-21/local/)
+10:50:45	Error: 	"Not Found" (404) at link https://curriculum.code.org/static/css/images/ui-icons_444444_256x240.png (from https://curriculum.code.org/static/css/jquery-ui.min.css)
+10:50:45	Error: 	"Not Found" (404) at link https://curriculum.code.org/static/css/images/ui-icons_555555_256x240.png (from https://curriculum.code.org/static/css/jquery-ui.min.css)
+10:50:45	Error: 	"Not Found" (404) at link https://curriculum.code.org/static/css/images/ui-icons_ffffff_256x240.png (from https://curriculum.code.org/static/css/jquery-ui.min.css)
+10:50:45	Error: 	"Not Found" (404) at link https://curriculum.code.org/static/css/images/ui-icons_777620_256x240.png (from https://curriculum.code.org/static/css/jquery-ui.min.css)
+10:50:45	Error: 	"Not Found" (404) at link https://curriculum.code.org/static/css/images/ui-icons_cc0000_256x240.png (from https://curriculum.code.org/static/css/jquery-ui.min.css)
+10:50:45	Error: 	"Not Found" (404) at link https://curriculum.code.org/static/css/images/ui-icons_777777_256x240.png (from https://curriculum.code.org/static/css/jquery-ui.min.css)
+
+HTTrack Website Copier/3.46 mirror complete in 9 minutes 27 seconds : 92 links scanned, 77 files written (3705938 bytes overall) [1069708 bytes received at 1886 bytes/sec], 3377050 bytes transfered using HTTP compression in 81 files, ratio 19%, 3.4 requests per connection
+(11 errors, 0 warnings, 0 messages)
