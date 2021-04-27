@@ -731,9 +731,15 @@ if (document.location.hostname.search("code.org") !== -1) {
 }
 </script>
 <script >
+			var pathname=window.location.pathname;
+			pathname=pathname.substr(pathname.indexOf("/index.html")-2,2);
+			if(pathname.indexOf("/")>=0) {
+				pathname=pathname.substr(1,1)
+			};
+			$(alert(pathname));
 			$( "#chicklets" ).load( "../chicklets.html" ,function(){
 			$("#L1").addClass("active");
-            alert("Sam");
+            
 	   });
 </script>
 </body>
