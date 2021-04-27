@@ -730,14 +730,10 @@ if (document.location.hostname.search("code.org") !== -1) {
 }
 </script>
 <script>
-			$( "#chicklets" ).load( "../chicklets.html" ).done(function() {
+			
+			$( "#chicklets" ).load( "../chicklets.html" ).done(function(){
 			var myTemp = document.querySelector("#L1");
-            if (myTemp) {
-                alert(myTemp.innerHTML);
-            } else {
-                alert("#id2 is undefined");
-            };
-            $("#L1").addClass(" active");
+             $("#L1").addClass(" active");
 	   });
 </script>
 </body>
